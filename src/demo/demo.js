@@ -1,14 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../logo.svg';
+import './demo.css';
 
-function App() {
+function Demo() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload with Zzaaf.          
+          Edit <code>src/demo/demo.js</code> and save to reload.          
         </p>
         <a
           className="App-link"
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default Demo;
